@@ -25,24 +25,27 @@ public class Airplane extends BaseEntity{
 		return airplaneName;
 	}
 
-	public void setAirplaneName(String airplaneName) {
+	public Airplane setAirplaneName(String airplaneName) {
 		this.airplaneName = airplaneName;
+		return this;
 	}
 
 	public String getAirplaneCode() {
 		return airplaneCode;
 	}
 
-	public void setAirplaneCode(String airplaneCode) {
+	public Airplane setAirplaneCode(String airplaneCode) {
 		this.airplaneCode = airplaneCode;
+		return this;
 	}
 
 	public List<Passenger> getPassengers() {
 		return passengers;
 	}
 
-	public void setPassengers(List<Passenger> passengers) {
+	public Airplane setPassengers(List<Passenger> passengers) {
 		this.passengers = passengers;
+		return this;
 	}
 	
 	

@@ -23,16 +23,26 @@ public class Airline extends BaseEntity{
 		return airlineName;
 	}
 
-	public void setAirlineName(String airlineName) {
+	public Airline setAirlineName(String airlineName) {
 		this.airlineName = airlineName;
+		return this;
 	}
 
 	public String getAirlineCode() {
 		return airlineCode;
 	}
 
-	public void setAirlineCode(String airlineCode) {
+	public Airline setAirlineCode(String airlineCode) {
 		this.airlineCode = airlineCode;
+		return this;
+	}
+
+	public Location getLocation() {
+		return location;
+	}
+
+	public void setLocation(Location location) {
+		this.location = location;
 	}
 	
 	

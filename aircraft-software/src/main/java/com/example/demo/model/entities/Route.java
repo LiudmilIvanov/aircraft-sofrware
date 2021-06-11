@@ -19,5 +19,34 @@ public class Route extends BaseEntity{
 	
 	@OneToOne
 	private Airport arrivalAirport;
+
+	public List<Airline> getAirlines() {
+		return airlines;
+	}
+
+	public Route setAirlines(List<Airline> airlines) {
+		this.airlines = airlines;
+		return this;
+	}
+
+	public Airport getDepartureAirport() {
+		return departureAirport;
+	}
+
+	public Route setDepartureAirport(Airport departureAirport) {
+		this.departureAirport = departureAirport;
+		return this;
+	}
+
+	public Airport getArrivalAirport() {
+		return arrivalAirport;
+	}
+
+	public Route setArrivalAirport(Airport arrivalAirport) {
+		this.arrivalAirport = arrivalAirport;
+		return this;
+	}
+	
+	
 }
 

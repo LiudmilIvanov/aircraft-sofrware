@@ -17,14 +17,16 @@ public class Location extends BaseEntity{
 	public String getCountryName() {
 		return countryName;
 	}
-	public void setCountryName(String countryName) {
+	public Location setCountryName(String countryName) {
 		this.countryName = countryName;
+		return this;
 	}
 	public String getCityName() {
 		return cityName;
 	}
-	public void setCityName(String cityName) {
+	public Location setCityName(String cityName) {
 		this.cityName = cityName;
+		return this;
 	}
 	
 	
