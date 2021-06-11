@@ -61,8 +61,8 @@ public class DBInit implements CommandLineRunner{
 		           .setCountryName("Bulgaria");
 					
 		
-		locationThree.setCountryName("United Kingdom")
-					 .setCityName("London");
+		locationThree.setCityName("London")
+					 .setCountryName("United Kingdom");
 		
 		locationTwo.setCountryName("France")
 				   .setCityName("Paris");
