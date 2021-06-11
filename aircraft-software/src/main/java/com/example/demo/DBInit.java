@@ -57,8 +57,9 @@ public class DBInit implements CommandLineRunner{
 		Location locationTwo = new Location();
 		Location locationThree = new Location();
 		
-		locationOne .setCountryName("Bulgaria")
-					.setCityName("Sofia");
+		locationOne.setCityName("Sofia") 
+		           .setCountryName("Bulgaria");
+					
 		
 		locationThree.setCountryName("United Kingdom")
 					 .setCityName("London");
