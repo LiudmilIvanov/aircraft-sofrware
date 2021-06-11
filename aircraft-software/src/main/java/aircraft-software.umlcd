@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4UCOgMqeEeu5m5tgr2XoBA">
+  <modelElement href="aircraft-software.uml#_4eDGIMqeEeu5m5tgr2XoBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6scQUMqeEeu5m5tgr2XoBA" sourceAnchor="211.0,54.0" targetAnchor="67.0,85.0" superClass="_6sdecMqeEeu5m5tgr2XoBA" subClass="_6sWwwMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4gRTsMqeEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPD6UMqhEeu5m5tgr2XoBA" sourceX="63" targetY="466"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6scQUcqeEeu5m5tgr2XoBA" sourceAnchor="112.0,0.0" targetAnchor="67.0,85.0" superClass="_6sdecMqeEeu5m5tgr2XoBA" subClass="_6sZNAMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4gR6wMqeEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPGWkMqhEeu5m5tgr2XoBA" sourceY="-423" targetX="288" targetY="28"/>
+    <bendpoints xmi:id="_JPGWkcqhEeu5m5tgr2XoBA" sourceX="-288" sourceY="-423" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6sc3YMqeEeu5m5tgr2XoBA" sourceAnchor="32.0,0.0" targetAnchor="67.0,85.0" superClass="_6sdecMqeEeu5m5tgr2XoBA" subClass="_6sbCMMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4gSh0MqeEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPGWksqhEeu5m5tgr2XoBA" sourceY="-27" targetX="-87" targetY="28"/>
+    <bendpoints xmi:id="_JPGWk8qhEeu5m5tgr2XoBA" sourceX="87" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6sfToMqeEeu5m5tgr2XoBA" sourceAnchor="221.0,77.0" targetAnchor="67.0,85.0" superClass="_6sdecMqeEeu5m5tgr2XoBA" subClass="_6sghycqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4gjAgMqeEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPHksMqhEeu5m5tgr2XoBA" sourceX="218" targetX="112" targetY="691"/>
+    <bendpoints xmi:id="_JPHkscqhEeu5m5tgr2XoBA" sourceX="218" sourceY="-663" targetX="112" targetY="28"/>
+    <bendpoints xmi:id="_JPHkssqhEeu5m5tgr2XoBA" sourceX="106" sourceY="-663" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6sghwMqeEeu5m5tgr2XoBA" source="_6sghycqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4hSnYMqeEeu5m5tgr2XoBA"/>
+    <stereotypes xmi:id="_6sghwcqeEeu5m5tgr2XoBA" name="Reference">
+      <modelElement href="aircraft-software.uml#_4hVDoMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6sghwsqeEeu5m5tgr2XoBA" text=""/>
+    <sourceRole xmi:id="_6sghw8qeEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_4hSnYcqeEeu5m5tgr2XoBA"/>
+      <visibility xmi:id="_6sghxMqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sghxcqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6sghxsqeEeu5m5tgr2XoBA" aggregationKind="NONE" name="birthDate" navigable="true">
+      <modelElement href="aircraft-software.uml#_4hMgwMqeEeu5m5tgr2XoBA"/>
+      <visibility xmi:id="_6sghx8qeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sghyMqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6si-AMqeEeu5m5tgr2XoBA" sourceAnchor="27.0,0.0" targetAnchor="67.0,85.0" superClass="_6sdecMqeEeu5m5tgr2XoBA" subClass="_6sjlEMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4gjnkMqeEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPFvgcqhEeu5m5tgr2XoBA" sourceY="-78" targetY="505"/>
+    <bendpoints xmi:id="_JPFvgsqhEeu5m5tgr2XoBA" sourceX="42" sourceY="-78" targetX="42" targetY="505"/>
+    <bendpoints xmi:id="_JPFvg8qhEeu5m5tgr2XoBA" sourceX="42" sourceY="-555" targetX="42" targetY="28"/>
+    <bendpoints xmi:id="_JPFvhMqhEeu5m5tgr2XoBA" sourceY="-555" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_F-P7wMqfEeu5m5tgr2XoBA" sourceAnchor="221.0,107.0" targetAnchor="112.0,108.0" target="_6sZNAMqeEeu5m5tgr2XoBA" source="_6sghycqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_F9P2McqfEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPG9osqhEeu5m5tgr2XoBA" sourceX="394" targetY="162"/>
+    <nameVisual xmi:id="_F-P7wcqfEeu5m5tgr2XoBA" text="">
+      <visualProperties xmi:id="_GEj_IMqfEeu5m5tgr2XoBA" position="-311.155846540423,-166.53023726263103"/>
+    </nameVisual>
+    <sourceRole xmi:id="_F-P7wsqfEeu5m5tgr2XoBA" aggregationKind="NONE" name="passengers" navigable="true">
+      <modelElement href="aircraft-software.uml#_F9PPIMqfEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_GEjYFMqfEeu5m5tgr2XoBA" position="-62.574975180879676,-106.65472378215782"/>
+      <visibility xmi:id="_F-P7w8qfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_F-P7xMqfEeu5m5tgr2XoBA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_F-P7xcqfEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_F9P2MMqfEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_GEj_IcqfEeu5m5tgr2XoBA" position="-143.3148809612194,-165.2677339323409"/>
+      <visibility xmi:id="_F-P7xsqfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_F-P7x8qfEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_r5rKIMqfEeu5m5tgr2XoBA" sourceAnchor="219.0,54.0" targetAnchor="32.0,54.0" target="_6sbCMMqeEeu5m5tgr2XoBA" source="_r8ktIMqfEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_r4mMEMqfEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPGWlMqhEeu5m5tgr2XoBA" sourceX="152" targetY="175"/>
+    <nameVisual xmi:id="_r5rKIcqfEeu5m5tgr2XoBA" text="">
+      <visualProperties xmi:id="_r_ca8MqfEeu5m5tgr2XoBA" position="-220.0,42.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_r5rKIsqfEeu5m5tgr2XoBA" aggregationKind="NONE" name="location" navigable="true">
+      <modelElement href="aircraft-software.uml#_r4b0AMqfEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_r_bz4cqfEeu5m5tgr2XoBA" position="0.0,-0.5"/>
+      <visibility xmi:id="_r5rKI8qfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_r5rKJMqfEeu5m5tgr2XoBA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_r5rKJcqfEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_r4llAMqfEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_r_ca8cqfEeu5m5tgr2XoBA" position="-321.0,237.5"/>
+      <visibility xmi:id="_r5rKJsqfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_r5rKJ8qfEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_r8i38MqfEeu5m5tgr2XoBA" sourceAnchor="110.0,0.0" targetAnchor="67.0,85.0" superClass="_6sdecMqeEeu5m5tgr2XoBA" subClass="_r8ktIMqfEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_r4T4MMqfEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPG9oMqhEeu5m5tgr2XoBA" sourceY="-202" targetX="-348" targetY="28"/>
+    <bendpoints xmi:id="_JPG9ocqhEeu5m5tgr2XoBA" sourceX="348" sourceY="-202" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-YZSwMqgEeu5m5tgr2XoBA" sourceAnchor="33.0,0.0" targetAnchor="217.0,108.0" target="_r8ktIMqfEeu5m5tgr2XoBA" source="_6sWwwMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_-XXYAMqgEeu5m5tgr2XoBA"/>
+    <stereotypes xmi:id="_-YZSwcqgEeu5m5tgr2XoBA" name="Reference">
+      <modelElement href="aircraft-software.uml#_-XbpcMqgEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-YZSwsqgEeu5m5tgr2XoBA" text="">
+      <visualProperties xmi:id="_-lG5EMqgEeu5m5tgr2XoBA" position="-12.12912225144612,-7.38112166280996"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-YZSw8qgEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_-XXYAcqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lGSBsqgEeu5m5tgr2XoBA" position="19.300245255467985,-67.06004113049892"/>
+      <visibility xmi:id="_-YZSxMqgEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_-YZSxcqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-YZSxsqgEeu5m5tgr2XoBA" aggregationKind="NONE" name="location" navigable="true">
+      <modelElement href="aircraft-software.uml#_-XTtoMqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lG5EcqgEeu5m5tgr2XoBA" position="-32.43412828689975,15.726924527031542"/>
+      <stereotypes xmi:id="_-Z2EQMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-aBDYMqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <stereotypes xmi:id="_-aVMcMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-aoucMqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <visibility xmi:id="_-YZSx8qgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-YZSyMqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-ZqeEMqgEeu5m5tgr2XoBA" sourceAnchor="0.0,27.0" targetAnchor="206.0,108.0" target="_6sWwwMqeEeu5m5tgr2XoBA" source="_6sjlEMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_-XbpccqgEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPEhYMqhEeu5m5tgr2XoBA" sourceX="-41" targetY="90"/>
+    <stereotypes xmi:id="_-ZrFIMqgEeu5m5tgr2XoBA" name="Reference">
+      <modelElement href="aircraft-software.uml#_-XeswMqgEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-ZrFIcqgEeu5m5tgr2XoBA" text="">
+      <visualProperties xmi:id="_-lHgIcqgEeu5m5tgr2XoBA" position="79.72658576634706,-81.69979871584883"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-ZrFIsqgEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_-XbpcsqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lHgIMqgEeu5m5tgr2XoBA" position="-44.59024670381649,-12.92591868576801"/>
+      <visibility xmi:id="_-ZrFI8qgEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_-ZrFJMqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-ZrFJcqgEeu5m5tgr2XoBA" aggregationKind="NONE" name="airlines" navigable="true">
+      <modelElement href="aircraft-software.uml#_-XU7wcqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lIHMMqgEeu5m5tgr2XoBA" position="155.9230041825606,-103.52049224765551"/>
+      <stereotypes xmi:id="_-ZrFJsqgEeu5m5tgr2XoBA" name="LegacyStyledElement">
+        <modelElement href="aircraft-software.uml#_-XVi0MqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-ZrFJ8qgEeu5m5tgr2XoBA" name="Annotations">
+        <modelElement href="aircraft-software.uml#_-XVi0cqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_-ZrFKMqgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-ZrFKcqgEeu5m5tgr2XoBA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-btFcMqgEeu5m5tgr2XoBA" sourceAnchor="54.0,27.0" targetAnchor="63.0,27.0" target="_6sbCMMqeEeu5m5tgr2XoBA" source="_6sjlEMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_-XfT0MqgEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPEhYcqhEeu5m5tgr2XoBA" sourceX="55" targetX="138" targetY="528"/>
+    <bendpoints xmi:id="_JPEhYsqhEeu5m5tgr2XoBA" sourceX="55" sourceY="-528" targetX="138"/>
+    <stereotypes xmi:id="_-btFccqgEeu5m5tgr2XoBA" name="Reference">
+      <modelElement href="aircraft-software.uml#_-XhwEMqgEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-btFcsqgEeu5m5tgr2XoBA" text="">
+      <visualProperties xmi:id="_-lIHMsqgEeu5m5tgr2XoBA" position="94.58468225303955,203.43740459900664"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-btFc8qgEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_-XfT0cqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lIHMcqgEeu5m5tgr2XoBA" position="-11.107885520194259,24.755057626926146"/>
+      <visibility xmi:id="_-btFdMqgEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_-btFdcqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-btFdsqgEeu5m5tgr2XoBA" aggregationKind="NONE" name="departureAirport" navigable="true">
+      <modelElement href="aircraft-software.uml#_-XVi08qgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lIuQMqgEeu5m5tgr2XoBA" position="352.82117729064464,348.3564112678815"/>
+      <stereotypes xmi:id="_-dGMkMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-dVdIMqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <stereotypes xmi:id="_-do_IMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-eG5MMqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <visibility xmi:id="_-btFd8qgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-btFeMqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-c4KIMqgEeu5m5tgr2XoBA" sourceAnchor="27.0,54.0" targetAnchor="2.0,0.0" target="_6sbCMMqeEeu5m5tgr2XoBA" source="_6sjlEMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_-XiXIMqgEeu5m5tgr2XoBA"/>
+    <bendpoints xmi:id="_JPFIcMqhEeu5m5tgr2XoBA" sourceY="15" targetX="117" targetY="597"/>
+    <bendpoints xmi:id="_JPFIccqhEeu5m5tgr2XoBA" sourceX="-503" sourceY="15" targetX="-386" targetY="597"/>
+    <bendpoints xmi:id="_JPFIcsqhEeu5m5tgr2XoBA" sourceX="-503" sourceY="-597" targetX="-386" targetY="-15"/>
+    <bendpoints xmi:id="_JPFvgMqhEeu5m5tgr2XoBA" sourceX="-117" sourceY="-597" targetY="-15"/>
+    <stereotypes xmi:id="_-c4KIcqgEeu5m5tgr2XoBA" name="Reference">
+      <modelElement href="aircraft-software.uml#_-XkMUMqgEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-c4KIsqgEeu5m5tgr2XoBA" text="">
+      <visualProperties xmi:id="_-lJVUMqgEeu5m5tgr2XoBA" position="483.0,467.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-c4KI8qgEeu5m5tgr2XoBA" aggregationKind="NONE" name="">
+      <modelElement href="aircraft-software.uml#_-XiXIcqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lIuQcqgEeu5m5tgr2XoBA" position="-24.0,22.0"/>
+      <visibility xmi:id="_-c4KJMqgEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_-c4KJcqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-c4KJsqgEeu5m5tgr2XoBA" aggregationKind="NONE" name="arrivalAirport" navigable="true">
+      <modelElement href="aircraft-software.uml#_-XWJ4sqgEeu5m5tgr2XoBA"/>
+      <visualProperties xmi:id="_-lJVUcqgEeu5m5tgr2XoBA" position="75.0,880.0"/>
+      <stereotypes xmi:id="_-eeFkMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-e0D0MqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <stereotypes xmi:id="_-fIz8MqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-fbH0MqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <visibility xmi:id="_-c4KJ8qgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-c4KKMqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6sWwwMqeEeu5m5tgr2XoBA" name="Airline" associationsIn="_-ZqeEMqgEeu5m5tgr2XoBA" associationsOut="_-YZSwMqgEeu5m5tgr2XoBA" generalizations="_6scQUMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4eVaAMqeEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_6sWwwcqeEeu5m5tgr2XoBA" position="263.0,321.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6sWwwsqeEeu5m5tgr2XoBA" name="Table">
+      <modelElement href="aircraft-software.uml#_4eXPMMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6sWww8qeEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_4eX2QMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_6sWwxMqeEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_6sWwxcqeEeu5m5tgr2XoBA" name="airlineName">
+      <modelElement href="aircraft-software.uml#_4gzfMMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sWwxsqeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4g17cMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sWwx8qeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sWwyMqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sWwycqeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6sWwysqeEeu5m5tgr2XoBA" name="airlineCode">
+      <modelElement href="aircraft-software.uml#_4g2igMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sWwy8qeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4g4-wMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sWwzMqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sWwzcqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sWwzsqeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-Yjq0MqgEeu5m5tgr2XoBA" name="location">
+      <modelElement href="aircraft-software.uml#_-XTtoMqgEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_-Yjq0cqgEeu5m5tgr2XoBA" name="LegacyStyledElement">
+        <modelElement href="aircraft-software.uml#_-XUUsMqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-Yjq0sqgEeu5m5tgr2XoBA" name="Annotations">
+        <modelElement href="aircraft-software.uml#_-XUUscqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_-Yjq08qgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-Yjq1MqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_-Yjq1cqgEeu5m5tgr2XoBA" name="Location">
+        <modelElement href="aircraft-software.uml#_r4QN0MqfEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6sZNAMqeEeu5m5tgr2XoBA" name="Airplane" associationsIn="_F-P7wMqfEeu5m5tgr2XoBA" generalizations="_6scQUcqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4ebgoMqeEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_6sZNAcqeEeu5m5tgr2XoBA" position="712.0,360.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6sZNAsqeEeu5m5tgr2XoBA" name="Table">
+      <modelElement href="aircraft-software.uml#_4eiOUMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6sZNA8qeEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_4ei1YMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_6sZNBMqeEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_6sZNBcqeEeu5m5tgr2XoBA" name="airplaneName">
+      <modelElement href="aircraft-software.uml#_4g5l0MqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sZNBsqeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4g8CEMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sZNB8qeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sZNCMqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sZNCcqeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6sZNCsqeEeu5m5tgr2XoBA" name="airplaneCode">
+      <modelElement href="aircraft-software.uml#_4g8pIMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sZNC8qeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4g_FYMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sZNDMqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sZNDcqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sZNDsqeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_F-pkYMqfEeu5m5tgr2XoBA" name="passengers">
+      <modelElement href="aircraft-software.uml#_F9PPIMqfEeu5m5tgr2XoBA"/>
+      <visibility xmi:id="_F-pkYcqfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_F-pkYsqfEeu5m5tgr2XoBA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_F-pkY8qfEeu5m5tgr2XoBA" name="Passenger">
+        <modelElement href="aircraft-software.uml#_4e1JQMqeEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6sbCMMqeEeu5m5tgr2XoBA" name="Airport" associationsIn="_r5rKIMqfEeu5m5tgr2XoBA _-btFcMqgEeu5m5tgr2XoBA _-c4KIMqgEeu5m5tgr2XoBA" generalizations="_6sc3YMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4elRoMqeEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_6sbCMcqeEeu5m5tgr2XoBA" position="418.0,-36.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6sbCMsqeEeu5m5tgr2XoBA" name="Table">
+      <modelElement href="aircraft-software.uml#_4er_UMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6sbCM8qeEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_4etNcMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_6sbCNMqeEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_r4naMMqfEeu5m5tgr2XoBA" name="location">
+      <modelElement href="aircraft-software.uml#_r4b0AMqfEeu5m5tgr2XoBA"/>
+      <visibility xmi:id="_r4naMcqfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_r4naMsqfEeu5m5tgr2XoBA" label="0..1" max="1"/>
+      <type xmi:id="_r4naM8qfEeu5m5tgr2XoBA" name="Location">
+        <modelElement href="aircraft-software.uml#_r4QN0MqfEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r8ktIMqfEeu5m5tgr2XoBA" name="Location" associationsIn="_-YZSwMqgEeu5m5tgr2XoBA" associationsOut="_r5rKIMqfEeu5m5tgr2XoBA" generalizations="_r8i38MqfEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_r4QN0MqfEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_r8ktIcqfEeu5m5tgr2XoBA" position="79.0,139.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_r8ktIsqfEeu5m5tgr2XoBA" name="Table">
+      <modelElement href="aircraft-software.uml#_r4SqEMqfEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_r8ktI8qfEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_r4TRIMqfEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_r8ktJMqfEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_r8ktJcqfEeu5m5tgr2XoBA" name="countryName">
+      <modelElement href="aircraft-software.uml#_r4cbEcqfEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_r8ktJsqfEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_r4feYMqfEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_r8ktJ8qfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_r8ktKMqfEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_r8ktKcqfEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r8ktKsqfEeu5m5tgr2XoBA" name="cityName">
+      <modelElement href="aircraft-software.uml#_r4gsgMqfEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_r8ktK8qfEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_r4k98MqfEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_r8ktLMqfEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_r8ktLcqfEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_r8ktLsqfEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6sghycqeEeu5m5tgr2XoBA" name="Passenger" associationsOut="_6sghwMqeEeu5m5tgr2XoBA _F-P7wMqfEeu5m5tgr2XoBA" generalizations="_6sfToMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4e1JQMqeEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_6sghysqeEeu5m5tgr2XoBA" position="210.0,523.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6sghy8qeEeu5m5tgr2XoBA" name="Table">
+      <modelElement href="aircraft-software.uml#_4e728MqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6sghzMqeEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_4e9FEMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_6sghzcqeEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_6sghzsqeEeu5m5tgr2XoBA" name="firstName">
+      <modelElement href="aircraft-software.uml#_4hA6kMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sghz8qeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4hDW0MqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sgh0MqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sgh0cqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sgh0sqeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6sgh08qeEeu5m5tgr2XoBA" name="lastName">
+      <modelElement href="aircraft-software.uml#_4hEk8MqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sgh1MqeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4hHBMMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sgh1cqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sgh1sqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sgh18qeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6sgh2MqeEeu5m5tgr2XoBA" name="email">
+      <modelElement href="aircraft-software.uml#_4hIPUMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sgh2cqeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4hL5sMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sgh2sqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sgh28qeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sgh3MqeEeu5m5tgr2XoBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6sgh3cqeEeu5m5tgr2XoBA" name="birthDate">
+      <modelElement href="aircraft-software.uml#_4hMgwMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sgh3sqeEeu5m5tgr2XoBA" name="Column">
+        <modelElement href="aircraft-software.uml#_4hO9AMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sgh38qeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sgh4MqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sgh4cqeEeu5m5tgr2XoBA" name="LocalDate">
+        <modelElement href="aircraft-software.uml#_4gfWIcqeEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6sjlEMqeEeu5m5tgr2XoBA" name="Route" associationsOut="_-ZqeEMqgEeu5m5tgr2XoBA _-btFcMqgEeu5m5tgr2XoBA _-c4KIMqgEeu5m5tgr2XoBA" generalizations="_6si-AMqeEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4fBWgMqeEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_6sjlEcqeEeu5m5tgr2XoBA" position="510.0,492.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6sjlEsqeEeu5m5tgr2XoBA" name="Table">
+      <modelElement href="aircraft-software.uml#_4fIrQMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6sjlE8qeEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_4fJ5YMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_6sjlFMqeEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_-dB7IMqgEeu5m5tgr2XoBA" name="airlines">
+      <modelElement href="aircraft-software.uml#_-XU7wcqgEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_-dDJQMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-dDwUMqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <stereotypes xmi:id="_-dEXYMqgEeu5m5tgr2XoBA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_-dEXYcqgEeu5m5tgr2XoBA" name="Annotations"/>
+      <visibility xmi:id="_-dB7IcqgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-dB7IsqgEeu5m5tgr2XoBA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_-dB7I8qgEeu5m5tgr2XoBA" name="Airline">
+        <modelElement href="aircraft-software.uml#_4eVaAMqeEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-dB7JMqgEeu5m5tgr2XoBA" name="departureAirport">
+      <modelElement href="aircraft-software.uml#_-XVi08qgEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_-dB7JcqgEeu5m5tgr2XoBA" name="LegacyStyledElement">
+        <modelElement href="aircraft-software.uml#_-XVi1MqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-dB7JsqgEeu5m5tgr2XoBA" name="Annotations">
+        <modelElement href="aircraft-software.uml#_-XWJ4MqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_-dB7J8qgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-dB7KMqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_-dB7KcqgEeu5m5tgr2XoBA" name="Airport">
+        <modelElement href="aircraft-software.uml#_4elRoMqeEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-dB7KsqgEeu5m5tgr2XoBA" name="arrivalAirport">
+      <modelElement href="aircraft-software.uml#_-XWJ4sqgEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_-dB7K8qgEeu5m5tgr2XoBA" name="LegacyStyledElement">
+        <modelElement href="aircraft-software.uml#_-XWJ48qgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-dB7LMqgEeu5m5tgr2XoBA" name="Annotations">
+        <modelElement href="aircraft-software.uml#_-XWJ5MqgEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_-dB7LcqgEeu5m5tgr2XoBA" label="-"/>
+      <cardinality xmi:id="_-dB7LsqgEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_-dB7L8qgEeu5m5tgr2XoBA" name="Airport">
+        <modelElement href="aircraft-software.uml#_4elRoMqeEeu5m5tgr2XoBA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6sdecMqeEeu5m5tgr2XoBA" name="BaseEntity" subclassedBy="_6scQUMqeEeu5m5tgr2XoBA _6scQUcqeEeu5m5tgr2XoBA _6sc3YMqeEeu5m5tgr2XoBA _6sfToMqeEeu5m5tgr2XoBA _6si-AMqeEeu5m5tgr2XoBA _r8i38MqfEeu5m5tgr2XoBA">
+    <modelElement href="aircraft-software.uml#_4et0gMqeEeu5m5tgr2XoBA"/>
+    <visualProperties xmi:id="_6sdeccqeEeu5m5tgr2XoBA" position="470.0,-176.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6sdecsqeEeu5m5tgr2XoBA" name="PersistentPart">
+      <modelElement href="aircraft-software.uml#_4ezUEMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6sdec8qeEeu5m5tgr2XoBA" name="JPA1StyledElement">
+      <modelElement href="aircraft-software.uml#_4e0iMMqeEeu5m5tgr2XoBA"/>
+    </stereotypes>
+    <visibility xmi:id="_6sdedMqeEeu5m5tgr2XoBA" label="+"/>
+    <attributes xmi:id="_6sdedcqeEeu5m5tgr2XoBA" name="id">
+      <modelElement href="aircraft-software.uml#_4g_scMqeEeu5m5tgr2XoBA"/>
+      <stereotypes xmi:id="_6sdedsqeEeu5m5tgr2XoBA" name="PrimaryKey">
+        <modelElement href="aircraft-software.uml#_4hATgMqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6sded8qeEeu5m5tgr2XoBA" name="GeneratedValueMapping">
+        <modelElement href="aircraft-software.uml#_4hATgcqeEeu5m5tgr2XoBA"/>
+      </stereotypes>
+      <visibility xmi:id="_6sdeeMqeEeu5m5tgr2XoBA" label="+"/>
+      <cardinality xmi:id="_6sdeecqeEeu5m5tgr2XoBA" label="1" max="1" min="1"/>
+      <type xmi:id="_6sdeesqeEeu5m5tgr2XoBA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
