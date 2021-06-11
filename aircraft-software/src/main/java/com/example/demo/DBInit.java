@@ -57,17 +57,14 @@ public class DBInit implements CommandLineRunner{
 		Location locationTwo = new Location();
 		Location locationThree = new Location();
 		
-		locationOne 
-					.setCountryName("Bulgaria")
+		locationOne .setCountryName("Bulgaria")
 					.setCityName("Sofia");
 		
-		locationThree
-					.setCountryName("United Kingdom")
-					.setCityName("London");
+		locationThree.setCountryName("United Kingdom")
+					 .setCityName("London");
 		
-		locationTwo
-					.setCountryName("France")
-					.setCityName("Paris");
+		locationTwo.setCountryName("France")
+				   .setCityName("Paris");
 		
 		locationRepository.saveAll(List.of(locationOne, locationTwo, locationThree));
 		
@@ -78,8 +75,8 @@ public class DBInit implements CommandLineRunner{
 	private void initRoute() {
 		Route route = new Route();
 		route.setDepartureAirport(airportRepository.findByLocation_CityName("Sofia"))
-				.setArrivalAirport(airportRepository.findByLocation_CityName("London"))
-				.setAirlines(airlineRepository.findAll());
+			  .setArrivalAirport(airportRepository.findByLocation_CityName("London"))
+			  .setAirlines(airlineRepository.findAll());
 		routeRepository.save(route);
 	}
 
@@ -87,8 +84,7 @@ public class DBInit implements CommandLineRunner{
 
 	private void initAirline() {
 		Airline airline = new Airline();
-		airline
-				.setAirlineName("British Airlines")
+		airline.setAirlineName("British Airlines")
 				.setAirlineCode("AFG123")
 		        .setLocation(locationRepository.findByCityName("London"));
 		airlineRepository.save(airline);
@@ -106,8 +102,7 @@ public class DBInit implements CommandLineRunner{
 
 	private void initPassengers() {
 		Passenger passenger = new Passenger();
-		passenger
-				 .setFirstName("George")
+		passenger.setFirstName("George")
 				 .setLastName("Smith")
 				 .setEmail("joshSmith@gmail.com");
 		passengerRepository.save(passenger);
@@ -117,8 +112,7 @@ public class DBInit implements CommandLineRunner{
 
 	private void initAirplane() {
 		Airplane plane = new Airplane();
-		plane
-			.setAirplaneName("airforce-one")
+		plane.setAirplaneName("airforce-one")
 			 .setAirplaneCode("HGF3405")
 			 .setPassengers(passengerRepository.findAll());
 		airplaneRepository.save(plane);
