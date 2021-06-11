@@ -10,14 +10,14 @@ import com.example.demo.utils.ValidationUtilImpl;
 
 @Configuration
 public class ApplicationConfiguration {
+	@Bean
+	public ValidationUtil validationUtil() {
+		return new ValidationUtilImpl();
+	}
 
 	@Bean
 	public ModelMapper modelMapper() {
 		return new ModelMapper();
 	}
 	
-	@Bean
-	public ValidationUtil validationUtil() {
-		return new ValidationUtilImpl();
-	}
 }
